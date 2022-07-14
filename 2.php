@@ -77,7 +77,7 @@ if ($kelas == 4) {
     }
 
     // SOAL PERKALIAN
-    for ($i=0; $i < 5; $i++) { 
+    for ($i=0; $i < 10; $i++) { 
         $a = rand(0,50);
         $b = rand(0,10);
         $kunci[$no] = $a*$b;
@@ -88,16 +88,16 @@ if ($kelas == 4) {
     }
 
     // SOAL PEMBAGIAN
-    for ($i=0; $i < 5; $i++) { 
-        $a = rand(1,50);
-        $b = rand(1,10);
-        $c = $a * $b;
-        $kunci[$no] = $a;
-        echo $no.". ";
-        echo $c." : ".$b." = ";
-        echo "<br>";
-        $no++;
-    } 
+    // for ($i=0; $i < 5; $i++) { 
+    //     $a = rand(1,50);
+    //     $b = rand(1,10);
+    //     $c = $a * $b;
+    //     $kunci[$no] = $a;
+    //     echo $no.". ";
+    //     echo $c." : ".$b." = ";
+    //     echo "<br>";
+    //     $no++;
+    // } 
 } else if($kelas == 1)
 {
    
